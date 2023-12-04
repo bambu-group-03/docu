@@ -3,7 +3,7 @@ import "styles/tailwind.css"
 import Navbar from "./navbar"
 
 export const metadata: Metadata = {
-  title: "Panda.corp",
+  title: "Panda",
   description: "Panda.corp is an Corporation dedicated to making the world a better place.",
 }
 
