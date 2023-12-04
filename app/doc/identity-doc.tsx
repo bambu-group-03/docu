@@ -26,7 +26,7 @@ export default function IdentityDocs() {
                 href="https://github.com/bambu-group-03/identity_socializer"
                 className="cursor-pointer text-blue-500 underline"
               >
-                Identituy Socialicer Repository
+                Identity Socialicer Repository
               </a>{" "}
               and clone/fork the project
             </li>
