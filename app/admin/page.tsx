@@ -4,16 +4,11 @@ export default function Admin() {
   return (
     <div>
       <h1 className="py-10 text-center text-4xl font-bold dark:text-white">
-        <u>Admin Documentation</u>
+        <u>Admin Features</u>
       </h1>
       <p className="py-5 text-center">Manage all your users with admin account</p>
 
-      <span> Aca va la documentacion de Snap</span>
-
       <section className="bg-white dark:bg-gray-900">
-        <h1 className="text-center text-4xl font-bold dark:text-white">Admin Features</h1>
-        <p className="py-5 text-center">Manage all your users with admin account</p>
-
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6">
           <div className="justify-center space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0 lg:grid-cols-3">
             {ADMIN_FEATURES.map((singleItem) => (

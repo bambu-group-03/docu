@@ -2,18 +2,13 @@ import { SNAP_FEATURES } from "features-snap"
 
 export default function Mobile() {
   return (
-    <>
-      <section className="bg-white py-10 dark:bg-gray-900">
-        <h1 className="text-center text-4xl font-bold dark:text-white">
-          <u>Snap Documentation</u>
-        </h1>
-        <p className="py-5 text-center">Snap with all your friends</p>
-      </section>
+    <div>
+      <h1 className="py-10 text-center text-4xl font-bold dark:text-white">
+        <u>Snap Features</u>
+      </h1>
+      <p className="py-5 text-center">Snap with all your friends</p>
 
-      <span> Aca va la documentacion de Snap</span>
-
-      <section className=" bg-white dark:bg-gray-900">
-        <h1 className=" text-center text-4xl font-bold dark:text-white">Snap Features</h1>
+      <section className="bg-white dark:bg-gray-900">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6">
           <div className="justify-center space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0 lg:grid-cols-3">
             {SNAP_FEATURES.map((singleItem) => (
@@ -28,6 +23,6 @@ export default function Mobile() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   )
 }
