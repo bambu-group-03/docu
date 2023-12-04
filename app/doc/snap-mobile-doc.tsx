@@ -77,7 +77,7 @@ export default function SnapMobileDocs() {
                 docker compose -f deploy/docker-compose.yml -f deploy/docker-compose.dev.yml --project-directory . up
                 --build
               </code>{" "}
-              inside of the <code className="rounded bg-gray-200 dark:bg-gray-800"> next-app</code> folder
+              from the root folder
             </li>
           </ol>
         </div>

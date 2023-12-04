@@ -21,7 +21,7 @@ export default function GatewayDocs() {
             </li>
 
             <li className="mb-2">
-              Install the{" "}
+              Install{" "}
               <a href="https://go.dev/doc/install" className="cursor-pointer text-blue-500 underline">
                 GO
               </a>
@@ -33,7 +33,8 @@ export default function GatewayDocs() {
             </li>
 
             <li className="mb-2">
-              Install Dependancies Globally <code className="rounded bg-gray-200 dark:bg-gray-800">make bin-deps</code>
+              Install Dependancies Globally with{" "}
+              <code className="rounded bg-gray-200 dark:bg-gray-800">make bin-deps</code>
             </li>
           </ol>
         </div>
