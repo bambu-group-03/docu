@@ -7,11 +7,10 @@ import type { DefaultSession } from "next-auth"
 import { Fragment, useEffect, useState } from "react"
 
 const navigation = [
-  { name: "Users", href: "/" },
-  { name: "Snaps", href: "/snaps" },
+  { name: "Homepage", href: "/" },
+  { name: "Mobile", href: "/mobile" },
   { name: "Admin", href: "/admin" },
-  { name: "Statistics", href: "/statistics" },
-  { name: "Verify", href: "/verify" },
+  { name: "About", href: "/about" },
 ]
 
 function classNames(...classes: string[]) {
