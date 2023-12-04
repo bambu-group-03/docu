@@ -72,10 +72,20 @@ export default function ContentDocs() {
               </code>
             </li>
           </ol>
+
+          <p className="py-5">
+            For more Docker Optiones see{" "}
+            <a
+              href="https://github.com/bambu-group-03/content_discovery#docker"
+              className="cursor-pointer text-blue-500 underline"
+            >
+              here
+            </a>{" "}
+          </p>
         </div>
 
-        <div className="py-5">
-          <h2 className="py-5 text-xl">
+        <div>
+          <h2 className="py-2 text-xl">
             <u>Github</u>
           </h2>
           <p>
