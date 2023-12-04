@@ -5,8 +5,9 @@ import React, { useState } from "react"
 
 import AdminDocs from "./admin-doc"
 import ContentDocs from "./content-doc"
+import GatewayDocs from "./gateway-docs"
 import IdentityDocs from "./identity-doc"
-import UserDocs from "./user-doc"
+import SnapMobileDocs from "./snap-mobile-doc"
 
 const profileWidth = "max-w-5xl mx-auto px-4 sm:px-6 lg:px-8"
 
@@ -80,6 +81,21 @@ export default function DocPage() {
                       </div>
                     )}
                   </Tab>
+
+                  <Tab key={"gateway_docs_tab"}>
+                    {({ selected }) => (
+                      <div
+                        className={
+                          selected
+                            ? `text-black-500 whitespace-nowrap border-b-2 bg-slate-300 px-5 py-3 font-mono text-sm font-medium`
+                            : `whitespace-nowrap border-b-2 px-5 py-3 font-mono text-sm font-medium`
+                        }
+                        data-headlessui-state="selected"
+                      >
+                        Gateway Docs
+                      </div>
+                    )}
+                  </Tab>
                 </Tab.List>
               </nav>
             </div>
@@ -87,7 +103,7 @@ export default function DocPage() {
 
           <Tab.Panels>
             <Tab.Panel>
-              <UserDocs />
+              <SnapMobileDocs />
             </Tab.Panel>
 
             <Tab.Panel>
@@ -100,6 +116,10 @@ export default function DocPage() {
 
             <Tab.Panel>
               <ContentDocs />
+            </Tab.Panel>
+
+            <Tab.Panel>
+              <GatewayDocs />
             </Tab.Panel>
           </Tab.Panels>
         </div>
