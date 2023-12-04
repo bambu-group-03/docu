@@ -2,7 +2,7 @@
 
 This is the official repo for [Snap](https://github.com/bambu-group-03) project.
 
-## 🎯 Getting Started
+## Getting Started
 
 To develop follow:
 
