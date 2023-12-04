@@ -4,7 +4,7 @@ export default function Mobile() {
   return (
     <div>
       <h1 className="py-10 text-center text-4xl font-bold dark:text-white">
-        <u>Snap Features</u>
+        <u>Mobile Features</u>
       </h1>
       <p className="py-5 text-center">Snap with all your friends</p>
 
