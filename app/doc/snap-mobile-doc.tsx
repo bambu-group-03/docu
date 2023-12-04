@@ -15,7 +15,7 @@ export default function SnapMobileDocs() {
               <a href="https://github.com/bambu-group-03/snap" className="cursor-pointer text-blue-500 underline">
                 Snap Mobile Repository
               </a>{" "}
-              and clone/fork the project.
+              and clone/fork the project
             </li>
 
             <li className="mb-2">
@@ -30,8 +30,16 @@ export default function SnapMobileDocs() {
             </li>
 
             <li className="mb-2">
-              Install the dependencies with <code className="rounded bg-gray-200 dark:bg-gray-800">npm install</code>{" "}
-              inside of the <code className="rounded bg-gray-200 dark:bg-gray-800"> next-app</code> folder
+              Install{" "}
+              <a href="https://pnpm.io/installation" className="cursor-pointer text-blue-500 underline">
+                pnpm
+              </a>{" "}
+              with <code className="rounded bg-gray-200 dark:bg-gray-800">npm install -g pnpm</code>
+            </li>
+
+            <li className="mb-2">
+              Install the dependencies with <code className="rounded bg-gray-200 dark:bg-gray-800">pnpm install</code>{" "}
+              from the root folder
             </li>
           </ol>
         </div>
@@ -40,17 +48,18 @@ export default function SnapMobileDocs() {
           <h2 className="py-5 text-xl">
             <u>Running the project</u>
           </h2>
+          <p></p>
           <ol className="list-decimal">
             <li className="mb-2">
-              Run the project with <code className="rounded bg-gray-200 dark:bg-gray-800">npm run dev</code> inside of
-              the <code className="rounded bg-gray-200 dark:bg-gray-800"> next-app</code> folder
+              Install{" "}
+              <a href="https://expo.dev/expo-go" className="cursor-pointer text-blue-500 underline">
+                Expo Go
+              </a>{" "}
+              on your device and enable all your device specific settings in order to load an app from external sources
             </li>
             <li className="mb-2">
-              Go to{" "}
-              <a href="http://localhost:3000" className="cursor-pointer text-blue-500 underline">
-                http://localhost:3000
-              </a>{" "}
-              and you will see the project running
+              Run the project with <code className="rounded bg-gray-200 dark:bg-gray-800">pnpm android</code> from the
+              root folder
             </li>
           </ol>
         </div>
@@ -63,16 +72,10 @@ export default function SnapMobileDocs() {
             <li className="mb-2">
               Run the project with{" "}
               <code className="rounded bg-gray-200 dark:bg-gray-800">
-                docker compose -f deploy/docker-compose.dev.yml up --build
+                docker compose -f deploy/docker-compose.yml -f deploy/docker-compose.dev.yml --project-directory . up
+                --build
               </code>{" "}
               inside of the <code className="rounded bg-gray-200 dark:bg-gray-800"> next-app</code> folder
-            </li>
-            <li className="mb-2">
-              Go to{" "}
-              <a href="http://localhost:3000" className="cursor-pointer text-blue-500 underline">
-                http://localhost:3000
-              </a>{" "}
-              and you will see the project running
             </li>
           </ol>
         </div>
@@ -83,10 +86,7 @@ export default function SnapMobileDocs() {
           </h2>
           <p>
             If you encounter any issue, please open an{" "}
-            <a
-              href="https://github.com/bambu-group-03/backoffice/issues"
-              className="cursor-pointer text-blue-500 underline"
-            >
+            <a href="https://github.com/bambu-group-03/snap/issues" className="cursor-pointer text-blue-500 underline">
               issue
             </a>{" "}
             in Github
