@@ -1,4 +1,4 @@
-export const LP_GRID_ITEMS = [
+export const SNAP_FEATURES = [
   {
     title: "Snap",
     description: "Brilliantly design",
