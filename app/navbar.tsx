@@ -18,7 +18,7 @@ function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ")
 }
 
-export default function Navbar({ user }: { user: DefaultSession["user"] }) {
+export default function Navbar() {
   const pathname = usePathname()
 
   return (
@@ -31,10 +31,10 @@ export default function Navbar({ user }: { user: DefaultSession["user"] }) {
                 <div className="flex shrink-0 items-center">
                   <Image
                     className="h-18 w-18 rounded-full"
-                    src={user?.image || "https://avatars.githubusercontent.com/t/8529037?s=116&v=4"}
+                    src={"/assets/images/logo.png"}
                     height={50}
                     width={50}
-                    alt={`${user?.name || "placeholder"} avatar`}
+                    alt={` "placeholder"} avatar`}
                   />
                 </div>
                 <div className="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
@@ -57,29 +57,6 @@ export default function Navbar({ user }: { user: DefaultSession["user"] }) {
               </div>
               <div className="hidden sm:ml-6 sm:flex sm:items-center">
                 <Menu as="div" className="relative ml-3">
-                  <div>
-                    <Menu.Button
-                      className="flex rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-slate-500 focus:ring-offset-2"
-                      disabled={user ? false : true}
-                    >
-                      <span className="sr-only">Open user menu</span>
-
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke-width="1.5"
-                        stroke="currentColor"
-                        className="h-6 w-6"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75"
-                        />
-                      </svg>
-                    </Menu.Button>
-                  </div>
                   <Transition
                     as={Fragment}
                     enter="transition ease-out duration-200"
