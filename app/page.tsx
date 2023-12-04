@@ -1,6 +1,6 @@
 import { Metadata } from "next"
 import { Button } from "components/Button/Button"
-import { SNAP_FEATURES } from "snap-features"
+import { MAIN_FEATURES } from "features-main"
 
 export const metadata: Metadata = {
   title: "Panda.corp",
@@ -29,12 +29,12 @@ export default function Web() {
         </div>
 
         <section className="bg-white dark:bg-gray-900">
-          <h2 className="px-20 text-4xl font-bold dark:text-white">
+          <h2 className="text-center text-4xl font-bold dark:text-white">
             <u>Features</u>
           </h2>
           <div className="mx-auto max-w-screen-xl px-4 py-5 sm:py-16 lg:px-6">
             <div className="justify-center space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0 lg:grid-cols-3">
-              {SNAP_FEATURES.map((singleItem) => (
+              {MAIN_FEATURES.map((singleItem) => (
                 <div key={singleItem.title} className="flex flex-col items-center justify-center text-center">
                   <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-primary-100 p-1.5 text-blue-700 dark:bg-primary-900 lg:h-12 lg:w-12">
                     {singleItem.icon}
