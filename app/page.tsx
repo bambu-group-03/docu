@@ -1,11 +1,5 @@
-import { Metadata } from "next"
 import { Button } from "components/Button/Button"
 import { MAIN_FEATURES } from "features-main"
-
-export const metadata: Metadata = {
-  title: "Panda.corp",
-  description: "Panda.corp is an Corporation dedicated to making the world a better place.",
-}
 
 export default function Web() {
   return (
