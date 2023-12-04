@@ -1,4 +1,4 @@
-export const ADMIN_FEATURES = [
+export const SNAP_FEATURES = [
   {
     title: "Snap",
     description: "Brilliantly design",

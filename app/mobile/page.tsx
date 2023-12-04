@@ -1,12 +1,22 @@
-import { LP_GRID_ITEMS } from "lp-items"
+import { SNAP_FEATURES } from "features-snap"
 
 export default function Mobile() {
   return (
     <>
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-white py-10 dark:bg-gray-900">
+        <h1 className="text-center text-4xl font-bold dark:text-white">
+          <u>Snap Documentation</u>
+        </h1>
+        <p className="py-5 text-center">Snap with all your friends</p>
+      </section>
+
+      <span> Aca va la documentacion de Snap</span>
+
+      <section className=" bg-white dark:bg-gray-900">
+        <h1 className=" text-center text-4xl font-bold dark:text-white">Snap Features</h1>
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6">
           <div className="justify-center space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0 lg:grid-cols-3">
-            {LP_GRID_ITEMS.map((singleItem) => (
+            {SNAP_FEATURES.map((singleItem) => (
               <div key={singleItem.title} className="flex flex-col items-center justify-center text-center">
                 <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-primary-100 p-1.5 text-blue-700 dark:bg-primary-900 lg:h-12 lg:w-12">
                   {singleItem.icon}
