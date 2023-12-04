@@ -102,7 +102,7 @@ export const SNAP_FEATURES = [
 
   {
     title: "Stay connected",
-    description: "Follow everyone you are interested in and see what they are up to.",
+    description: "Find what your loved ones are up to and stay connected",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
