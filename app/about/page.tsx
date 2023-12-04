@@ -12,7 +12,9 @@ export default function About() {
                 <Image
                   src="/assets/images/logo.png"
                   alt="Panda Logo"
-                  className="fill-y text-y  z-0    h-full w-36 object-fill   "
+                  width={36}
+                  height={36}
+                  className="fill-y text-y z-0 h-full w-36 object-fill"
                 />
               </div>
               <div className="relative z-40 lg:max-w-xl lg:pr-5">
@@ -33,7 +35,8 @@ export default function About() {
                       <Image
                         src={"/assets/images/github-logos/github-mark.svg"}
                         alt="Panda Logo"
-                        style={{ width: 25, height: 25 }}
+                        width={25}
+                        height={25}
                         className="mr-2"
                       />
                       <a
@@ -47,7 +50,8 @@ export default function About() {
                       <Image
                         src={"/assets/images/github-logos/github-mark.svg"}
                         alt="Panda Logo"
-                        style={{ width: 25, height: 25 }}
+                        width={25}
+                        height={25}
                         className="mr-2"
                       />
                       <a href="https://github.com/Maferep" className="mt-3 text-gray-700 hover:text-gray-900 md:mt-0">
@@ -58,7 +62,8 @@ export default function About() {
                       <Image
                         src={"/assets/images/github-logos/github-mark.svg"}
                         alt="Github Logo"
-                        style={{ width: 25, height: 25 }}
+                        width={25}
+                        height={25}
                         className="mr-2"
                       />
                       <a
@@ -72,7 +77,8 @@ export default function About() {
                       <Image
                         src={"/assets/images/github-logos/github-mark.svg"}
                         alt="Github Logo"
-                        style={{ width: 25, height: 25 }}
+                        width={25}
+                        height={25}
                         className="mr-2"
                       />
                       <a
@@ -98,7 +104,7 @@ export default function About() {
                 <path stroke-linecap="round" stroke-linejoin="round" d="M16 17l-4 4m0 0l-4-4m4 4V3"></path>
               </svg>
               <div className="abg-orange-400 mx-auto w-fit overflow-hidden rounded-[6rem] rounded-br-none rounded-tl-none">
-                <Image src="/assets/images/logo.png" alt="Panda Logo" />
+                <Image src="/assets/images/logo.png" alt="Panda Logo" width={500} height={300} />
               </div>
             </div>
           </div>
