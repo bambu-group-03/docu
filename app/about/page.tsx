@@ -1,3 +1,4 @@
+import Image from "next/image"
 import React from "react"
 
 export default function About() {
@@ -8,7 +9,11 @@ export default function About() {
           <div className="flex flex-col items-center justify-between py-16 lg:flex-row">
             <div className=" relative ">
               <div className=" absolute -left-48 top-0 z-0  opacity-50 ">
-                <img src="/assets/images/logo.png" className="fill-y text-y  z-0    h-full w-36 object-fill   " />
+                <Image
+                  src="/assets/images/logo.png"
+                  alt="Panda Logo"
+                  className="fill-y text-y  z-0    h-full w-36 object-fill   "
+                />
               </div>
               <div className="relative z-40 lg:max-w-xl lg:pr-5">
                 <p className="text-g1 flex text-sm uppercase  ">About Us</p>
@@ -25,8 +30,9 @@ export default function About() {
                 <div className="mt-10 flex flex-col items-center md:flex-row">
                   <ul className="flex flex-col space-y-6 md:ml-4">
                     <li className="mb-6 flex items-center md:mb-0 md:mr-4">
-                      <img
+                      <Image
                         src={"/assets/images/github-logos/github-mark.svg"}
+                        alt="Panda Logo"
                         style={{ width: 25, height: 25 }}
                         className="mr-2"
                       />
@@ -38,8 +44,9 @@ export default function About() {
                       </a>
                     </li>
                     <li className="mb-6 flex items-center md:mb-0 md:mr-4">
-                      <img
+                      <Image
                         src={"/assets/images/github-logos/github-mark.svg"}
+                        alt="Panda Logo"
                         style={{ width: 25, height: 25 }}
                         className="mr-2"
                       />
@@ -48,8 +55,9 @@ export default function About() {
                       </a>
                     </li>
                     <li className="mb-6 flex items-center md:mb-0 md:mr-4">
-                      <img
+                      <Image
                         src={"/assets/images/github-logos/github-mark.svg"}
+                        alt="Github Logo"
                         style={{ width: 25, height: 25 }}
                         className="mr-2"
                       />
@@ -61,8 +69,9 @@ export default function About() {
                       </a>
                     </li>
                     <li className="mb-6 flex items-center md:mb-0 md:mr-4">
-                      <img
+                      <Image
                         src={"/assets/images/github-logos/github-mark.svg"}
+                        alt="Github Logo"
                         style={{ width: 25, height: 25 }}
                         className="mr-2"
                       />
@@ -89,7 +98,7 @@ export default function About() {
                 <path stroke-linecap="round" stroke-linejoin="round" d="M16 17l-4 4m0 0l-4-4m4 4V3"></path>
               </svg>
               <div className="abg-orange-400 mx-auto w-fit overflow-hidden rounded-[6rem] rounded-br-none rounded-tl-none">
-                <img src="/assets/images/logo.png" />
+                <Image src="/assets/images/logo.png" alt="Panda Logo" />
               </div>
             </div>
           </div>

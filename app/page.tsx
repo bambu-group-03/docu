@@ -17,7 +17,7 @@ export default function Web() {
               Snap
             </h1>
             <p className="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-              Find out what's happening in the world right now
+              Find out what is happening in the world right now
             </p>
             <Button href="https://github.com/bambu-group-03/snap/releases/tag/v1.1.2" className="mr-3">
               Get Mobile Apk
