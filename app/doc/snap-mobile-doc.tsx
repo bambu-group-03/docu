@@ -3,7 +3,9 @@ import React from "react"
 export default function SnapMobileDocs() {
   return (
     <div className="py-10 text-justify">
-      <h1 className="text-xl">
+      <p>Snap Mobile is encharged of the end user mobile app.</p>
+
+      <h1 className="py-5 text-xl">
         <u>Getting Started</u>
       </h1>
 

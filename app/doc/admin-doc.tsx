@@ -3,7 +3,12 @@ import React from "react"
 export default function AdminDocs() {
   return (
     <div className="py-10 text-justify">
-      <h1 className="text-xl">
+      <p>
+        Admin is encharged of the admin controles. It allowes admins to block/unblock users and snaps and to validate
+        users.
+      </p>
+
+      <h1 className="py-5 text-xl">
         <u>Getting Started</u>
       </h1>
 
