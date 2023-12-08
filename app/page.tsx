@@ -20,7 +20,7 @@ export default function Web() {
               <Button href="https://expo.dev/artifacts/eas/pV6DpfLvMSMR7s9ZZWfn4e.apk" className="mr-3">
                 Get Mobile Apk
               </Button>
-              <Button href="https://next-app-identity-socializer-luiscusihuaman.cloud.okteto.net/" intent="secondary">
+              <Button href="https://next-app-identity-socializer-luiscusihuaman.cloud.okteto.net" intent="secondary">
                 Go to Admin Page
               </Button>
             </div>
