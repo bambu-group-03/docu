@@ -17,7 +17,7 @@ export default function Web() {
               Find out what is happening in the world right now
             </p>
             <div className="flex flex-col gap-4 lg:flex-row">
-              <Button href="https://github.com/bambu-group-03/snap/releases/tag/v1.1.2" className="mr-3">
+              <Button href="https://expo.dev/artifacts/eas/pV6DpfLvMSMR7s9ZZWfn4e.apk" className="mr-3">
                 Get Mobile Apk
               </Button>
               <Button href="https://next-app-identity-socializer-luiscusihuaman.cloud.okteto.net/" intent="secondary">
