@@ -3,10 +3,14 @@ import { SNAP_FEATURES } from "features-snap"
 export default function Mobile() {
   return (
     <div>
+      <div className="flex items-center justify-center">
+        <img src="/assets/images/demo.png" alt="Your Image" className="h-auto max-w-full py-5" />
+      </div>
+      <p className="py-5 text-center">Snap with all your friends</p>
+
       <h1 className="py-10 text-center text-4xl font-bold dark:text-white">
         <u>Mobile Features</u>
       </h1>
-      <p className="py-5 text-center">Snap with all your friends</p>
 
       <section className="bg-white dark:bg-gray-900">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6">
