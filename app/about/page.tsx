@@ -103,8 +103,8 @@ export default function About() {
               >
                 <path stroke-linecap="round" stroke-linejoin="round" d="M16 17l-4 4m0 0l-4-4m4 4V3"></path>
               </svg>
-              <div className="abg-orange-400 mx-auto w-fit overflow-hidden rounded-[6rem] rounded-br-none rounded-tl-none">
-                <Image src="/assets/images/logo.png" alt="Panda Logo" width={500} height={300} />
+              <div className="abg-orange-400 mx-auto w-fit overflow-hidden rounded-[6rem] rounded-br-none rounded-tl-none py-2">
+                <Image src="/assets/images/team.jpeg" alt="Panda Logo" width={500} height={300} />
               </div>
             </div>
           </div>
