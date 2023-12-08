@@ -3,11 +3,14 @@ import { ADMIN_FEATURES } from "features-admin"
 export default function Admin() {
   return (
     <div>
+      <div className="flex items-center justify-center">
+        <img src="/assets/images/web-view.png" alt="Your Image" className="h-auto max-w-full " />
+      </div>
+      <p className="py-5 text-center">Manage all your users with admin account</p>
+
       <h1 className="py-10 text-center text-4xl font-bold dark:text-white">
         <u>Admin Features</u>
       </h1>
-      <p className="py-5 text-center">Manage all your users with admin account</p>
-
       <section className="bg-white dark:bg-gray-900">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6">
           <div className="justify-center space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0 lg:grid-cols-3">
